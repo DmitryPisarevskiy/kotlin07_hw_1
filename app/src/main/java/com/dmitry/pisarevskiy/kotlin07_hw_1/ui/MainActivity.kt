@@ -7,6 +7,7 @@ import com.dmitry.pisarevskiy.kotlin07_hw_1.mvp.presenter.MainPresenter
 import com.dmitry.pisarevskiy.kotlin07_hw_1.mvp.view.MainView
 
 class MainActivity : AppCompatActivity(), MainView {
+
     private val ui:ActivityMainBinding by lazy {ActivityMainBinding.inflate(layoutInflater)}
     private val presenter:MainPresenter = MainPresenter(this)
 
